@@ -172,7 +172,7 @@ function App() {
                     {/* Dois botões, um para contato e um para o site de portifolio. o segundo botão em cor brand-neon e o primeiro com bordas brand-neon */}
                     <div className="flex gap-6 mt-20 justify-center">
                         <a
-                            href="mailto:seuemail@dominio.com"
+                            href="mailto:gustavoluizdsrodriguez@gmail.com"
                             className="border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-black transition-colors duration-300 py-2 px-4 rounded-lg w-[50%] text-center font-semibold"
                         >
                             Contato
