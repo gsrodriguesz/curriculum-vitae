@@ -137,7 +137,7 @@ function App() {
                             period="2025"
                             tasks={[
                                 'Prestei suporte técnico a visitantes e à organização no laboratório de informática durante o evento.',
-                                'Desenvolvi website gamificado em HTML, CSS e JavaScript para apresentação do curso ao público, garantindo funcionamento contínuo.'
+                                'Desenvolvi um website gamificado usando Vite, React e MongoDB para apresentação do curso ao público, garantindo funcionamento contínuo.'
                             ]}
                         />
                     </div>
