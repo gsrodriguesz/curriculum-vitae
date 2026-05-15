@@ -45,11 +45,14 @@ function App() {
 
                             <div className="mt-8 pt-8 border-t border-brand-border">
                                 <p className="text-gray-300 leading-relaxed md:text-lg max-w-3xl">
+                                    Desenvolvedor Full Stack com experiência prática no desenvolvimento de aplicações web utilizando React, Next.js, TypeScript e Python. Atuação em projetos próprios e integradores, com conhecimentos em infraestrutura Linux, redes e bancos de dados. Interesse em engenharia de software, arquitetura backend e soluções escaláveis.
+                                </p>
+                                {/* <p className="text-gray-300 leading-relaxed md:text-lg max-w-3xl">
                                     Sou desenvolvedor com formação técnica em Informática pelo IFSP – Bragança Paulista e atualmente cursando Análise e Desenvolvimento de Sistemas na mesma instituição. Tenho experiência prática no desenvolvimento de aplicações web full stack com <span className="text-white font-semibold">Python, TypeScript, React e Next.js</span>, além de conhecimentos sólidos em infraestrutura de redes, administração Linux, hardware e banco de dados.
                                 </p>
                                 <p className="text-gray-300 leading-relaxed md:text-lg max-w-3xl mt-4">
                                     Desenvolvi projetos próprios do zero, como o <strong>Codex</strong>, uma plataforma de competições de programação. Fui 1º lugar local e 7º estadual na INTERIF, e 1º lugar no Desafio de Programação IFSP-BRA. Busco contribuir em times que valorizem boas práticas e aprendizado contínuo.
-                                </p>
+                                </p> */}
                             </div>
                         </div>
                     </div>
@@ -95,6 +98,65 @@ function App() {
                                 <SkillBadge label="Hardware" />
                             </div>
                         </div>
+                        <div>
+                            <h3 className="text-white uppercase tracking-wider font-bold mb-4 flex items-center gap-2">
+                                Cloud / DevOps
+                            </h3>
+                            <hr className='border-brand-neon py-2' />
+                            <div className="flex flex-wrap gap-2 md:gap-3">
+                                <SkillBadge label="VPS" variant="highlight" />
+                                <SkillBadge label="Docker" variant="highlight" />
+                                <SkillBadge label="Nginx" variant="highlight" />
+                                <SkillBadge label="CI/CD" />
+                                <SkillBadge label="Github Actions" />
+                            </div>
+                        </div>
+                        <div>
+                            <h3 className="text-white uppercase tracking-wider font-bold mb-4 flex items-center gap-2">
+                                Ferramentas & Workflow
+                            </h3>
+                            <hr className='border-brand-neon py-2' />
+                            <div className="flex flex-wrap gap-2 md:gap-3">
+                                <SkillBadge label="Git/Github" variant="highlight" />
+                                <SkillBadge label="Figma" variant="highlight" />
+                                <SkillBadge label="Scrum/Kanban" variant="highlight" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* LANGUAGES AND SOFT SKILLS */}
+                <section className="mb-20">
+                    <SectionHeader subtitle="Workflow Pessoal" title="Idiomas e Habilidades" />
+
+                    <div className="flex flex-col gap-8">
+
+                        <div>
+                            <h3 className="text-white uppercase tracking-wider font-bold mb-4 flex items-center gap-2">
+                                Idiomas
+                            </h3>
+                            <hr className='border-brand-neon py-2' />
+                            <div className="flex flex-wrap gap-2 md:gap-3 flex-col">
+                                <SkillBadge label="Português - Nativo" variant="highlight" />
+                                <SkillBadge label="Inglês - Intermediário" />
+                            </div>
+                        </div>
+
+                        <div>
+                            <h3 className="text-white uppercase tracking-wider font-bold mb-4 flex items-center gap-2">
+                                Soft Skills
+                            </h3>
+                            <hr className='border-brand-neon py-2' />
+                            <div className="flex flex-wrap gap-2 md:gap-3 flex-col">
+                                <SkillBadge label="Trabalho em Equipe" variant="highlight" />
+                                <SkillBadge label="Comunicação Eficaz" variant="highlight" />
+                                <SkillBadge label="Resolução de Problemas" variant="highlight" />
+                                <SkillBadge label="Aprendizado Rápido" variant="highlight" />
+                                <SkillBadge label="Liderança" />
+                            </div>
+                        </div>
+
+
                     </div>
                 </section>
 
@@ -107,11 +169,14 @@ function App() {
                             title="Codex – Plataforma de Competições de Programação"
                             description="Desenvolvedor (Projeto Pessoal). Configurei e administrei o ambiente de servidor da plataforma, implementando arquitetura cliente-servidor com API REST, autenticação de usuários e avaliação automática de código."
                             tags={['TypeScript', 'NestJS', 'React', 'Next.js', 'SQL']}
+                            repoLink={'https://github.com/orgs/CodexHQ/'}
                         />
                         <ProjectItem
                             title="DinHero – Plataforma de Educação Financeira"
                             description="Desenvolvedor (Projeto Integrador – IFSP). Desenvolvi e implantei plataforma web. Projeto publicado na página oficial da feira de ciências Bragantec do IFSP-BRA."
                             tags={['React', 'Vite', 'Python', 'Flask', 'PostgreSQL']}
+                            repoLink={'https://github.com/orgs/DinHeroProject/'}
+                            demoLink={'https://dinhero.vercel.app/'}
                         />
                     </div>
                 </section>
@@ -132,12 +197,12 @@ function App() {
                         />
 
                         <ExperienceItem
-                            company="Feira de Ciências IFSP-BRA"
+                            company="BRAGANTEC - Feira de Ciências IFSP-BRA"
                             role="Monitor Voluntário de Laboratório de Informática"
                             period="2025"
                             tasks={[
                                 'Prestei suporte técnico a visitantes e à organização no laboratório de informática durante o evento.',
-                                'Desenvolvi um website gamificado usando Vite, React e MongoDB para apresentação do curso ao público, garantindo funcionamento contínuo.'
+                                'Desenvolvi um website gamificado usando Vite, React e MongoDB para apresentação do curso ao público, garantindo funcionamento contínuo durante os dias de feira, com mais de 500 visitantes atendidos.'
                             ]}
                         />
                     </div>
