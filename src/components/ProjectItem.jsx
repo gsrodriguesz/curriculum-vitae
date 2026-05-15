@@ -34,7 +34,7 @@ export function ProjectItem({ title, description, tags, repoLink, demoLink }) {
                     href={repoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-black transition-colors duration-300 py-2 px-4 rounded-lg w-[50%] text-center font-semibold"
+                    className="border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-black transition-colors duration-300 py-2 px-4  w-[50%] text-center font-semibold"
                 >
                     Repositório
                 </a>
@@ -42,7 +42,7 @@ export function ProjectItem({ title, description, tags, repoLink, demoLink }) {
                     href={demoLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`${demoLink ? 'bg-brand-neon text-black hover:bg-brand-neon/80' : 'bg-brand-neon/50 text-black cursor-not-allowed'} transition-colors duration-300 py-2 px-4 rounded-lg w-[50%] text-center font-semibold`}
+                    className={`${demoLink ? 'bg-brand-neon text-black hover:bg-brand-neon/80' : 'bg-brand-neon/50 text-black cursor-not-allowed'} transition-colors duration-300 py-2 px-4  w-[50%] text-center font-semibold`}
                 >
                     Demonstração
                 </a>

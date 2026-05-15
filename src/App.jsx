@@ -56,7 +56,20 @@ function App() {
                             </div>
                         </div>
                     </div>
+                    <section>
+                        <div className="flex gap-6 mt-8 justify-center">
+                            <a
+                                href="https://gsrodriguesz.me/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="bg-brand-card border-brand-neon border-2 text-white hover:bg-brand-neon hover:text-black transition-all hover:scale-101 duration-300 py-2 px-4 w-full text-center font-semibold"
+                            >
+                                Portfólio Completo
+                            </a>
+                        </div>
+                    </section>
                 </div>
+
             </header>
 
             {/* MAIN CONTENT */}
@@ -238,7 +251,7 @@ function App() {
                     <div className="flex gap-6 mt-20 justify-center">
                         <a
                             href="mailto:gustavoluizdsrodriguez@gmail.com"
-                            className="border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-black transition-colors duration-300 py-2 px-4 rounded-lg w-[50%] text-center font-semibold"
+                            className="border-2 border-brand-neon text-brand-neon hover:bg-brand-neon hover:text-black transition-colors duration-300 py-2 px-4  w-[50%] text-center font-semibold"
                         >
                             Contato
                         </a>
@@ -246,7 +259,7 @@ function App() {
                             href="https://gsrodriguesz.me/"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="bg-brand-neon text-black hover:bg-brand-neon/80 transition-colors duration-300 py-2 px-4 rounded-lg w-[50%] text-center font-semibold"
+                            className="bg-brand-neon text-black hover:bg-brand-neon/80 transition-colors duration-300 py-2 px-4  w-[50%] text-center font-semibold"
                         >
                             Portfólio
                         </a>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export function ExperienceItem({ role, company, period, tasks }) {
     return (
-        <div className="border border-brand-border bg-brand-card rounded-lg p-5 group hover:border-brand-neon/50 transition-colors duration-300">
+        <div className="border border-brand-border bg-brand-card  p-5 group hover:border-brand-neon/50 transition-colors duration-300">
             <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
                 <div>
                     <h3 className="text-xl font-bold uppercase tracking-wide text-white">{company}</h3>
